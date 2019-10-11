@@ -6,8 +6,8 @@ h1 {
   font-size: 42px;
 }
   h2 {
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 40px;
   }
   h3 {
     font-weight: 700;
@@ -17,4 +17,15 @@ h1 {
     font-family: PT Sans, sans-serif;
     width: 700px;
     margin: 0 auto;
+  }
+  nav {
+    width: 500px;
+    position: fixed;
+    box-shadow: 0 1px 3px rgba(, 0, 0, 0.5);
+    right: 1000px;
+    left: 100px;
+  }
+  nav:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5);
   }
