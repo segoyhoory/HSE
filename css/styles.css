@@ -1,31 +1,399 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic");
-h1 {
-  font-weight: 700;
-  margin-top: 40px;
-  font-size: 42px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap');
+body {
+
+width: 1440px;
+height: 6961px;
+
+
+background: #000000;
 }
-  h2 {
-    font-weight: 800;
-    font-size: 40px;
-  }
-  h3 {
-    font-weight: 700;
-    font-size: 20px;
-  }
-  body {
-    font-family: PT Sans, sans-serif;
-    width: 700px;
-    margin: 0 auto;
-  }
-  nav {
-    width: 500px;
-    position: fixed;
-    box-shadow: 0 1px 3px rgba(, 0, 0, 0.5);
-    right: 1000px;
-    left: 100px;
-  }
-  nav:hover {
-    transition: box-shadow 0.3s ease;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5);
-  }
+
+#p1 {
+  position: absolute;
+  width: 1018px;
+  height: 246px;
+  left: 280px;
+  top: 1124px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+
+}
+#p2 {
+  position: absolute;
+width: 1020px;
+height: 454px;
+left: 286px;
+top: 1975px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 127.7%;
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+
+#p3 {
+  position: absolute;
+  width: 1020px;
+  height: 489px;
+  left: 286px;
+  top: 2937px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 127.7%;
+
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+
+}
+
+#p4 {
+  position: absolute;
+width: 993px;
+height: 657px;
+left: 291px;
+top: 3899px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 127.7%;
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+}
+#p5 {
+  position: absolute;
+width: 983px;
+height: 330px;
+left: 291px;
+top: 5053px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 127.7%;
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+}
+#p6 {
+  position: absolute;
+width: 969px;
+height: 379px;
+left: 291px;
+top: 5885px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 127.7%;
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+
+#p7 {
+  position: absolute;
+  width: 1020px;
+  height: 408px;
+  left: 291px;
+  top: 6801px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 127.7%;
+
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+}
+
+h1 {
+position: absolute;
+width: 1127px;
+height: 262px;
+left: 280px;
+top: 897px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 99.4%;
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+
+#pic {
+  position: absolute;
+  width: 247px;
+  height: 245px;
+  left: 790px;
+  top: 1703px;
+
+}
+
+#pic2 {
+  position: absolute;
+  width: 213px;
+  height: 179px;
+  left: 1064px;
+  top: 2712px;
+
+}
+
+#pic3 {
+  position: absolute;
+  width: 224px;
+  height: 164px;
+  left: 949px;
+  top: 3703px;
+
+}
+
+#pic4 {
+  position: absolute;
+  width: 242px;
+  height: 202px;
+  left: 904px;
+  top: 4828px;
+
+}
+
+#pic5 {
+  position: absolute;
+  width: 185px;
+  height: 207px;
+  left: 1075px;
+  top: 5678px;
+
+}
+
+#pic6 {
+  position: absolute;
+  width: 176px;
+  height: 176px;
+  left: 658px;
+  top: 6585px;
+
+}
+
+#pic7 {
+position: fixed;
+width: 86px;
+height: 88px;
+left: 97px;
+top: 56px;
+}
+
+#pic8 {
+position: fixed;
+width: 83px;
+height: 71px;
+left: 97px;
+top: 177px;
+}
+
+#pic9 {
+position: fixed;
+width: 85px;
+height: 64px;
+left: 95px;
+top: 284px;
+}
+
+#pic10 {
+position: fixed;
+width: 101px;
+height: 88px;
+left: 87px;
+top: 385px;
+}
+
+#pic11 {
+position: fixed;
+width: 78px;
+height: 97px;
+left: 99px;
+top: 510px;
+}
+
+#pic12 {
+position: fixed;
+width: 83px;
+height: 83px;
+left: 94px;
+top: 643px;
+}
+#pic13 {
+  position: absolute;
+width: 110px;
+height: 96px;
+left: 1230px;
+top: 7043px;
+border: 0px solid #FFFFFF;
+}
+#pic14 {
+position: absolute;
+width: 109px;
+height: 6009px;
+left: 1298px;
+top: 928px;
+}
+h2 {
+  position: absolute;
+width: 1009px;
+height: 51px;
+left: 286px;
+top: 1890px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 125.4%;
+/* or 59px */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+
+
+}
+
+h3 {
+  position: absolute;
+  width: 1071px;
+  height: 51px;
+  left: 286px;
+  top: 2847px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 125.4%;
+  /* or 59px */
+
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+
+
+
+}
+
+h4 {
+  position: absolute;
+  width: 1020px;
+  height: 54px;
+  left: 291px;
+  top: 3811px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 125.4%;
+  /* or 59px */
+
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+
+
+
+}
+
+h5 {
+  position: absolute;
+width: 1009px;
+height: 66px;
+left: 291px;
+top: 4965px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 125.4%;
+/* or 59px */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+
+
+}
+
+h6 {
+  position: absolute;
+width: 969px;
+height: 51px;
+left: 291px;
+top: 5800px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 125.4%;
+/* or 59px */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+
+}
+
+h7 {
+  position: absolute;
+  width: 1010px;
+  height: 51px;
+  left: 291px;
+  top: 6710px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 125.4%;
+
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+}
