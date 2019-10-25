@@ -154,6 +154,14 @@ letter-spacing: -0.03em;
 
 color: #FFFFFF;
 }
+#pic0 {
+  position: absolute;
+width: 911px;
+height: 877px;
+left: 477px;
+top: 21px;
+
+}
 
 #pic {
   position: absolute;
